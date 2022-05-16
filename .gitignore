@@ -39,9 +39,11 @@ MANIFEST
 *.manifest
 *.spec
 
-# Installer logs
+# Installer logs, text editable
 pip-log.txt
 pip-delete-this-directory.txt
+*.bat
+.gitignore
 
 # Unit test / coverage reports
 htmlcov/
@@ -55,6 +57,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 *.mp4
+*.mp3
 
 # Performance profiling
 prof/
@@ -80,6 +83,7 @@ _autosummary
 .pytest_cache*
 
 .vscode/
+.ipynb_checkpoints/
 
 # mkdocs documentation
 /site
