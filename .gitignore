@@ -56,8 +56,11 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+
+# media files
 *.mp4
 *.mp3
+*.jpg
 
 # Performance profiling
 prof/
